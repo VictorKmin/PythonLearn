@@ -44,3 +44,18 @@ else:
     print('A = B')
 
 print('A is big') if a > b else print('B is big')
+
+# || &&
+if a > b and a ** 2 > b: print('One line IF')
+if a > b or a ** 2 > b: print('WTF IS **')
+
+# LOOPS
+
+
+# Якщо поміняти i++ та print місцями, то не буде працювати
+i = 0
+while i < 10:
+    i += 1
+    if i == 3:
+        continue
+    print(i)
